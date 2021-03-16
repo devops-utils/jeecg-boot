@@ -2504,10 +2504,10 @@ GO
 -- ----------------------------
 -- Records of jimu_report_data_source
 -- ----------------------------
-INSERT INTO [dbo].[jimu_report_data_source]  VALUES (N'1324261983692902402', N'jeewx', N'1324261770294071296', N'', NULL, N'MYSQL', N'com.mysql.jdbc.Driver', N'jdbc:mysql://127.0.0.1:3306/jeewx-boot?useUnicode=true&characterEncoding=UTF-8&serverTimezone=GMT%2B8', N'root', N'root', N'jeecg', N'2020-11-05 16:07:15.0000000', NULL, N'2020-11-05 16:07:15.0000000')
+INSERT INTO [dbo].[jimu_report_data_source]  VALUES (N'1324261983692902402', N'jeewx', N'1324261770294071296', N'', NULL, N'MYSQL', N'com.mysql.jdbc.Driver', N'jdbc:mysql://127.0.0.1:3307/jeewx-boot?useUnicode=true&characterEncoding=UTF-8&serverTimezone=GMT%2B8', N'root', N'root', N'jeecg', N'2020-11-05 16:07:15.0000000', NULL, N'2020-11-05 16:07:15.0000000')
 GO
 
-INSERT INTO [dbo].[jimu_report_data_source]  VALUES (N'8f90daf47d15d35ca6cf420748b8b9ba', N'localhost', N'1353224937833369600', N'', NULL, N'MYSQL5.7', N'com.mysql.cj.jdbc.Driver', N'jdbc:mysql://127.0.0.1:3306/jeecg-boot?useUnicode=true&characterEncoding=UTF-8&serverTimezone=GMT%2B8', N'root', N'root', N'admin', N'2021-01-24 14:22:12.0000000', NULL, N'2021-01-24 14:22:12.0000000')
+INSERT INTO [dbo].[jimu_report_data_source]  VALUES (N'8f90daf47d15d35ca6cf420748b8b9ba', N'localhost', N'1353224937833369600', N'', NULL, N'MYSQL5.7', N'com.mysql.cj.jdbc.Driver', N'jdbc:mysql://127.0.0.1:3307/jeecg-boot?useUnicode=true&characterEncoding=UTF-8&serverTimezone=GMT%2B8', N'root', N'root', N'admin', N'2021-01-24 14:22:12.0000000', NULL, N'2021-01-24 14:22:12.0000000')
 GO
 
 
@@ -12219,7 +12219,7 @@ GO
 -- ----------------------------
 -- Records of sys_data_source
 -- ----------------------------
-INSERT INTO [dbo].[sys_data_source]  VALUES (N'1209779538310004737', N'local_mysql', N'MySQL5.7', N'本地数据库MySQL5.7', N'1', N'com.mysql.jdbc.Driver', N'jdbc:mysql://127.0.0.1:3306/jeecg-boot?characterEncoding=UTF-8&useUnicode=true&useSSL=false', N'jeecg-boot', N'root', N'f5b6775e8d1749483f2320627de0e706', N'admin', N'2019-12-25 18:14:53.0000000', N'admin', N'2020-07-10 16:54:42.0000000', N'A01')
+INSERT INTO [dbo].[sys_data_source]  VALUES (N'1209779538310004737', N'local_mysql', N'MySQL5.7', N'本地数据库MySQL5.7', N'1', N'com.mysql.jdbc.Driver', N'jdbc:mysql://127.0.0.1:3307/jeecg-boot?characterEncoding=UTF-8&useUnicode=true&useSSL=false', N'jeecg-boot', N'root', N'f5b6775e8d1749483f2320627de0e706', N'admin', N'2019-12-25 18:14:53.0000000', N'admin', N'2020-07-10 16:54:42.0000000', N'A01')
 GO
 
 
@@ -14731,7 +14731,7 @@ GO
 INSERT INTO [dbo].[sys_log]  VALUES (N'1257318654309150721', N'2', N'多数据源管理-分页列表查询', N'1', N'admin', N'管理员', N'127.0.0.1', N'org.jeecg.modules.system.controller.SysDataSourceController.queryPageList()', NULL, N'  sysDataSource: SysDataSource(id=null, code=null, name=null, remark=null, dbType=null, dbDriver=null, dbUrl=null, dbName=null, dbUsername=null, dbPassword=null, createBy=null, createTime=null, updateBy=null, updateTime=null, sysOrgCode=null)  pageNo: 1  pageSize: 10  req: org.apache.shiro.web.servlet.ShiroHttpServletRequest@44651e7c', NULL, N'60', N'admin', N'2020-05-04 22:38:22.0000000', NULL, NULL)
 GO
 
-INSERT INTO [dbo].[sys_log]  VALUES (N'1257318671023452161', N'2', N'多数据源管理-编辑', N'3', N'admin', N'管理员', N'127.0.0.1', N'org.jeecg.modules.system.controller.SysDataSourceController.edit()', NULL, N'[{"createBy":"admin","createTime":1577268893000,"dbDriver":"com.mysql.jdbc.Driver","dbName":"jeecg-boot","dbPassword":"root","dbType":"1","dbUrl":"jdbc:mysql://127.0.0.1:3306/jeecg-boot?characterEncoding=UTF-8&useUnicode=true&useSSL=false","dbUsername":"root","id":"1209779538310004737","name":"MySQL5.7","remark":"本地数据库MySQL5.7","sysOrgCode":"A01","updateBy":"admin","updateTime":1588603105614}]', NULL, N'34', N'admin', N'2020-05-04 22:38:26.0000000', NULL, NULL)
+INSERT INTO [dbo].[sys_log]  VALUES (N'1257318671023452161', N'2', N'多数据源管理-编辑', N'3', N'admin', N'管理员', N'127.0.0.1', N'org.jeecg.modules.system.controller.SysDataSourceController.edit()', NULL, N'[{"createBy":"admin","createTime":1577268893000,"dbDriver":"com.mysql.jdbc.Driver","dbName":"jeecg-boot","dbPassword":"root","dbType":"1","dbUrl":"jdbc:mysql://127.0.0.1:3307/jeecg-boot?characterEncoding=UTF-8&useUnicode=true&useSSL=false","dbUsername":"root","id":"1209779538310004737","name":"MySQL5.7","remark":"本地数据库MySQL5.7","sysOrgCode":"A01","updateBy":"admin","updateTime":1588603105614}]', NULL, N'34', N'admin', N'2020-05-04 22:38:26.0000000', NULL, NULL)
 GO
 
 INSERT INTO [dbo].[sys_log]  VALUES (N'1257318671723900930', N'2', N'多数据源管理-分页列表查询', N'1', N'admin', N'管理员', N'127.0.0.1', N'org.jeecg.modules.system.controller.SysDataSourceController.queryPageList()', NULL, N'  sysDataSource: SysDataSource(id=null, code=null, name=null, remark=null, dbType=null, dbDriver=null, dbUrl=null, dbName=null, dbUsername=null, dbPassword=null, createBy=null, createTime=null, updateBy=null, updateTime=null, sysOrgCode=null)  pageNo: 1  pageSize: 10  req: org.apache.shiro.web.servlet.ShiroHttpServletRequest@915482d', NULL, N'16', N'admin', N'2020-05-04 22:38:26.0000000', NULL, NULL)
@@ -15418,7 +15418,7 @@ GO
 INSERT INTO [dbo].[sys_log]  VALUES (N'1281512143234084865', N'2', N'多数据源管理-分页列表查询', N'1', N'admin', N'管理员', N'127.0.0.1', N'org.jeecg.modules.system.controller.SysDataSourceController.queryPageList()', NULL, N'  sysDataSource: SysDataSource(id=null, code=null, name=null, remark=null, dbType=null, dbDriver=null, dbUrl=null, dbName=null, dbUsername=null, dbPassword=null, createBy=null, createTime=null, updateBy=null, updateTime=null, sysOrgCode=null)  pageNo: 1  pageSize: 10  req: org.apache.shiro.web.servlet.ShiroHttpServletRequest@e82dbcc', NULL, N'21', N'admin', N'2020-07-10 16:54:39.0000000', NULL, NULL)
 GO
 
-INSERT INTO [dbo].[sys_log]  VALUES (N'1281512154952970241', N'2', N'多数据源管理-编辑', N'3', N'admin', N'管理员', N'127.0.0.1', N'org.jeecg.modules.system.controller.SysDataSourceController.edit()', NULL, N'[{"createBy":"admin","createTime":1577268893000,"dbDriver":"com.mysql.jdbc.Driver","dbName":"jeecg-boot","dbPassword":"root","dbType":"1","dbUrl":"jdbc:mysql://127.0.0.1:3306/jeecg-boot?characterEncoding=UTF-8&useUnicode=true&useSSL=false","dbUsername":"root","id":"1209779538310004737","name":"MySQL5.7","remark":"本地数据库MySQL5.7","sysOrgCode":"A01","updateBy":"admin","updateTime":1594371281682}]', NULL, N'27', N'admin', N'2020-07-10 16:54:42.0000000', NULL, NULL)
+INSERT INTO [dbo].[sys_log]  VALUES (N'1281512154952970241', N'2', N'多数据源管理-编辑', N'3', N'admin', N'管理员', N'127.0.0.1', N'org.jeecg.modules.system.controller.SysDataSourceController.edit()', NULL, N'[{"createBy":"admin","createTime":1577268893000,"dbDriver":"com.mysql.jdbc.Driver","dbName":"jeecg-boot","dbPassword":"root","dbType":"1","dbUrl":"jdbc:mysql://127.0.0.1:3307/jeecg-boot?characterEncoding=UTF-8&useUnicode=true&useSSL=false","dbUsername":"root","id":"1209779538310004737","name":"MySQL5.7","remark":"本地数据库MySQL5.7","sysOrgCode":"A01","updateBy":"admin","updateTime":1594371281682}]', NULL, N'27', N'admin', N'2020-07-10 16:54:42.0000000', NULL, NULL)
 GO
 
 INSERT INTO [dbo].[sys_log]  VALUES (N'1281512155624058882', N'2', N'多数据源管理-分页列表查询', N'1', N'admin', N'管理员', N'127.0.0.1', N'org.jeecg.modules.system.controller.SysDataSourceController.queryPageList()', NULL, N'  sysDataSource: SysDataSource(id=null, code=null, name=null, remark=null, dbType=null, dbDriver=null, dbUrl=null, dbName=null, dbUsername=null, dbPassword=null, createBy=null, createTime=null, updateBy=null, updateTime=null, sysOrgCode=null)  pageNo: 1  pageSize: 10  req: org.apache.shiro.web.servlet.ShiroHttpServletRequest@469013ef', NULL, N'17', N'admin', N'2020-07-10 16:54:42.0000000', NULL, NULL)

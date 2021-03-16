@@ -146,15 +146,15 @@
         },
         dbUrlMap: {
           // MySQL 数据库
-          '1': { dbUrl: 'jdbc:mysql://127.0.0.1:3306/jeecg-boot?characterEncoding=UTF-8&useUnicode=true&useSSL=false' },
+          '1': { dbUrl: 'jdbc:mysql://127.0.0.1:3307/jeecg-boot?characterEncoding=UTF-8&useUnicode=true&useSSL=false' },
           //MySQL5.7+ 数据库
-          '4': { dbUrl: 'jdbc:mysql://127.0.0.1:3306/jeecg-boot?characterEncoding=UTF-8&useUnicode=true&useSSL=false&tinyInt1isBit=false&allowPublicKeyRetrieval=true&serverTimezone=Asia/Shanghai' },
+          '4': { dbUrl: 'jdbc:mysql://127.0.0.1:3307/jeecg-boot?characterEncoding=UTF-8&useUnicode=true&useSSL=false&tinyInt1isBit=false&allowPublicKeyRetrieval=true&serverTimezone=Asia/Shanghai' },
           // Oracle
           '2': { dbUrl: 'jdbc:oracle:thin:@127.0.0.1:1521:ORCL' },
           // SQLServer 数据库
           '3': { dbUrl: 'jdbc:sqlserver://127.0.0.1:1433;SelectMethod=cursor;DatabaseName=jeecgboot' },
           // SQLServer 数据库
-          '5': { dbUrl: 'jdbc:mariadb://127.0.0.1:3306/jeecg-boot?characterEncoding=UTF-8&useSSL=false' },
+          '5': { dbUrl: 'jdbc:mariadb://127.0.0.1:3307/jeecg-boot?characterEncoding=UTF-8&useSSL=false' },
           // SQLServer 数据库
           '6': { dbUrl: 'jdbc:postgresql://127.0.0.1:5432/jeecg-boot' }
         }
