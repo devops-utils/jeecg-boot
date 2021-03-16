@@ -10,10 +10,14 @@
 
 # 4.配置host
 
-   # jeecgboot
-   127.0.0.1   jeecg-boot-redis
-   127.0.0.1   jeecg-boot-mysql
-   127.0.0.1   jeecg-boot-system
+# jeecgboot
+127.0.0.1   jeecg-boot-redis
+127.0.0.1   jeecg-boot-mysql
+127.0.0.1   jeecg-boot-system
+
+10.2.100.2 jeecg-boot-redis
+10.2.100.2 jeecg-boot-mysql
+10.2.100.2 jeecg-boot-system
 
 # 5.启动镜像__容器组（也可取代运行中的镜像）
    docker-compose up -d
