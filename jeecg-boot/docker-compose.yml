@@ -23,7 +23,7 @@ services:
   jeecg-boot-redis:
     image: redis:5.0
     ports:
-      - 6379:6379
+      - 6369:6379
     restart: always
     hostname: jeecg-boot-redis
     container_name: jeecg-boot-redis

@@ -10,7 +10,7 @@ import org.redisson.config.Config;
 
 /**
  * 哨兵方式Redis连接配置
- * 比如sentinel.conf里配置为sentinel monitor my-sentinel-name 127.0.0.1 6379 2,那么这里就配置my-sentinel-name
+ * 比如sentinel.conf里配置为sentinel monitor my-sentinel-name 127.0.0.1 6369 2,那么这里就配置my-sentinel-name
  * 配置方式:my-sentinel-name,127.0.0.1:26379,127.0.0.1:26389,127.0.0.1:26399
  * @author zyf
  * @date 2020-11-11

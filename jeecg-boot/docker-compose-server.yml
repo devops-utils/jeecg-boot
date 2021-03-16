@@ -30,7 +30,7 @@ services:
   jeecg-boot-redis:
     image: redis:5.0
     ports:
-      - 6379:6379
+      - 6369:6379
     restart: always
     container_name: jeecg-boot-redis
 
@@ -48,4 +48,4 @@ services:
     restart: always
     container_name: jeecg-boot-nginx
     ports:
-      - 80:80
+      - 8081:80
