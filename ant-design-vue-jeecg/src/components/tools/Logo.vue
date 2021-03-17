@@ -21,7 +21,7 @@
     props: {
       title: {
         type: String,
-        default: 'Jeecg-Boot Pro',
+        default: '北京铁塔低代码平台',
         required: false
       },
       showTitle: {
