@@ -10,3 +10,5 @@
 **/*.lock
 
 .DS_Store
+
+db/data

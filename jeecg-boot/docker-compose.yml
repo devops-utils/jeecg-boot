@@ -17,6 +17,8 @@ services:
       --lower_case_table_names=1
       --max_allowed_packet=128M
       --default-authentication-plugin=caching_sha2_password
+    volumes:
+      - ./db/data:/var/lib/mysql
     ports:
       - 3307:3306
 
