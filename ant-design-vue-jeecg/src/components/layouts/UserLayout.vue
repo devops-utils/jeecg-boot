@@ -5,11 +5,11 @@
         <div class="header">
           <a href="/">
             <img src="~@/assets/logo.svg" class="logo" alt="logo">
-            <span class="title">北京铁塔</span>
+            <span class="title">常州天正</span>
           </a>
         </div>
         <div class="desc">
-          北京铁塔低代码平台
+          常州天正低代码平台
         </div>
       </div>
 

@@ -17,8 +17,8 @@
         :type="collapsed ? 'menu-unfold' : 'menu-fold'"
         @click="toggle"/>
 
-      <span v-if="device === 'desktop'">欢迎进入 北京铁塔低代码平台</span>
-      <span v-else>北京铁塔</span>
+      <span v-if="device === 'desktop'">欢迎进入 常州天正低代码平台</span>
+      <span v-else>常州天正</span>
 
       <user-menu :theme="theme"/>
     </div>

@@ -1,7 +1,7 @@
 <template>
   <div class="footer">
     <div class="links">
-      <a href="https://friday-cg.suomitek.com/" target="_blank">北京铁塔</a>
+      <a href="https://friday-cg.suomitek.com/" target="_blank">常州天正</a>
       <a href="https://github.com/zhangdaiscott/jeecg-boot" target="_blank">
         <a-icon type="github"/>
       </a>
@@ -11,7 +11,7 @@
     <div class="copyright">
       Copyright
       <a-icon type="copyright"/>
-      2019 <span>北京铁塔 出品</span>
+      2019 <span>常州天正 出品</span>
     </div>
   </div>
 </template>

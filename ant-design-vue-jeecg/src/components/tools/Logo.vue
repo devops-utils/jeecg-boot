@@ -21,7 +21,7 @@
     props: {
       title: {
         type: String,
-        default: '北京铁塔低代码平台',
+        default: '常州天正低代码平台',
         required: false
       },
       showTitle: {
